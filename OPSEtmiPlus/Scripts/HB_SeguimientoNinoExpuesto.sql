@@ -1,0 +1,20 @@
+CREATE TABLE HB_SeguimientoNinoExpuesto (
+    IdSeguimientoNinoExpuesto INT PRIMARY KEY IDENTITY(1,1),
+    IdGestanteControl INT FOREIGN KEY REFERENCES GestanteControl(IdGestanteControl),
+    IdCondicionRecienNacido INT,
+    EdadGestacionalNacimientoSemanas INT,
+    IdTipoParto INT,
+    IdNumeroProductosNacimiento INT,
+    FechaParto DATETIME,
+    IdSexo INT,
+    IdTipoRegimenSalud INT,
+    NombreAseguradora NVARCHAR(MAX),
+    DireccionTerritorial NVARCHAR(MAX),
+    NombresApellidos NVARCHAR(MAX),
+    IdTipoDocumento INT,
+    NumeroIdentificacion NVARCHAR(MAX),
+    AplicaronDosisVacunaRecienNacido INT,
+    IdTiempoAplicacionVacuna INT,
+    AplicaronInmunoglobulinaRecienNacido INT,
+    IdTiempoAplicacionInmonoglobulina INT
+);

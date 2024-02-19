@@ -1,0 +1,7 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/OPSEtmiPlus/bin/Debug/net8.0
+/OPSEtmiPlus/obj
+/.vs

@@ -1,0 +1,9 @@
+@OPSEtmiPlus_HostAddress = http://localhost:5090
+
+GET {{OPSEtmiPlus_HostAddress}}/api/User
+Accept: application/json
+###
+
+GET {{OPSEtmiPlus_HostAddress}}/api/User/5
+Accept: application/json
+###
