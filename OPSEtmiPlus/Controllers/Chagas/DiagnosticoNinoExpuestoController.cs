@@ -19,7 +19,7 @@ namespace OPSEtmiPlus.Controllers.Chagas
         }
 
         // POST api/GestanteControl/5/Chagas/<DiagnosticoNinoExpuestoController>
-        [Authorize]
+        //[Authorize]
         [HttpPost]
         public IActionResult Post(ILogger<DiagnosticoNinoExpuestoController> logger, int idGestanteControl, [FromBody] DiagnosticoNinoExpuestoChagas model)
         {

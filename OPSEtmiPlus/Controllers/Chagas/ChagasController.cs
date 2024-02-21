@@ -16,7 +16,7 @@ namespace OPSEtmiPlus.Controllers.Chagas
     public class ChagasController : ControllerBase
     {
         // GET api/<ChagasController>/5
-        [Authorize]
+        //[Authorize]
         [HttpGet("{idGestanteControl}")]
         public IActionResult Get(ILogger<ChagasController> logger, int idGestanteControl)
         {

@@ -11,6 +11,9 @@
         public int SospechaChagasCronicoOTamizajeControlPrenatal { get; set; }
 
         //Algoritmo1 (Serologia para deteccion de anticuerpos totales contra Tripanozoma Cruzi por dos tecnicas de ELISA
+        public DateTime FechaRecoleccionMuestraElisaAntigenosTotales { get; set; }
+        public DateTime FechaEmisionResultadoElisaAntigenosTotales { get; set; }
+
         public int ResultadoPruebaTamizajeElisaAntigenosTotales { get; set; }
         public DateTime FechaRecoleccionMuestra { get; set; }
         public DateTime FechaEmisionResultado { get; set; }

@@ -19,7 +19,7 @@ namespace OPSEtmiPlus.Controllers.Chagas
         }
 
         // POST api/GestanteControl/Algoritmo/5/Chagas/<TratamientoMaternoController>
-        [Authorize]
+        //[Authorize]
         [HttpPost]
         public IActionResult Post(ILogger<TratamientoMaternoController> logger, int idAlgoritmo, [FromBody] TratamientoMaternoChagas model)
         {

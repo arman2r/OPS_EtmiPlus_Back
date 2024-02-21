@@ -377,6 +377,13 @@ VALUES
     ('NUFURTIMOX_CONTROL_MEDICO', 'Día 30', 'Día 30: Descripción de Día 30'),
     ('NUFURTIMOX_CONTROL_MEDICO', 'Día 60', 'Día 60: Descripción de Día 60');
 
+--BENZNIDAZOL_CONTROL_MEDICO
+INSERT INTO Parametrica (Nombre, Valor, Descripcion)
+VALUES 
+    ('BENZNIDAZOL_CONTROL_MEDICO', 'Día 10', 'Día 10: Descripción de Día 10'),
+    ('BENZNIDAZOL_CONTROL_MEDICO', 'Día 30', 'Día 30: Descripción de Día 30'),
+    ('BENZNIDAZOL_CONTROL_MEDICO', 'Día 60', 'Día 60: Descripción de Día 60');
+
 --INSERT INTO Parametrica (Nombre, Valor, Descripcion)
 --VALUES 
 --    ('PRUEBA_SEROLOGICA', 'Antigenos totales', 'Antigenos totales: Descripción de Antigenos totales'),

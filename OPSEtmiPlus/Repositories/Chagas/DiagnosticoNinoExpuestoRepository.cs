@@ -51,10 +51,10 @@ namespace OPSEtmiPlus.Repositories.Chagas
                          FechaEmisionResultado10Meses, EsCasoConfirmadoTMIChagas)
                     OUTPUT INSERTED.IdDiagnosticoNinoExpuesto
                     VALUES (@IdGestanteControl, @FechaNacimiento, @IdExamenParasitologico, 
-                            @ResultadoExamenParasitologico, @FechaRecoleccionMuestra, @FechaEmisionResultado, 
+                            @ResultadoExamenParasitologico, @FechaRecoleccionMuestra, @FechaEmisiónResultado, 
                             @SeHacePruebaDiagnostica3Meses, @IdExamenParasitologico3Meses, 
                             @ResultadoExamenParasitologico3Meses, @FechaRecoleccionMuestra3Meses, 
-                            @FechaEmisionResultado3Meses, @SeHacePrueebaDiagnosticoMolecular, @ResultadoPCR, 
+                            @FechaEmisiónResultado3Meses, @SeHacePrueebaDiagnosticoMolecular, @ResultadoPCR, 
                             @FechaRecolecionPCR, @FechaEmisionPCR, @SeHacePruebaDiagnostico10Meses, 
                             @EsAntigenosTotales, @EsAntigenosRecombinantes, @ResultadoPrueba, 
                             @FechaRecoleccionMuestra10Meses, @FechaEmisionResultado10Meses, 
