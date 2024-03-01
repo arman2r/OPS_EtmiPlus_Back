@@ -4,7 +4,7 @@
     {      
         public int IdClasificacionNinoExpuesto { get; set; }
         public int IdSeguimientoNinoExpuesto { get; set; }
-        public int IdResultadoAntiHBsAg {get; set; } //RESULTADO_PRUEBA
+        public int IdResultadoAntiHBsAg { get; set; } //RESULTADO_PRUEBA
         public Parametrica? ResultadoAntiHBsAg {  get; set; }
         public DateTime FechaResultadoAntiHBsAg { get; set; }
         public int IdResultadoAntiHBs { get; set; } //RESULTADO_PRUEBA

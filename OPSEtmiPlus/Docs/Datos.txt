@@ -1,0 +1,46 @@
+
+//====VPN
+Dominio: SISPROPREPROD
+Gateway remoto: 172.174.40.42
+port: 10443
+user: wgomezg
+pass: N98x:gBJ/O44
+
+
+//DevOps
+https://saturno.minsalud.gov.co/tfs/
+User: TFSMINSALUD\wgomezg
+Password: z=9GvD:/4X,g
+--Para clonar es posible que sea necesario deshabilitar la verficiacion de SSL del Git con el siguiente comando:
+git config --global http.sslVerify false
+--Para habilitar nuevamente
+git config --global http.sslVerify true
+
+//BD
+Server name: sqlpisis1.sisprodesa.local
+Usuario: wgomezg
+contraseña: MinSalPISIS1*
+
+Nota: Recordar que deben estar conectados a la VPN y tener configurado el archivo host 
+
+Editar archivo de Host
+C:\Windows\System32\drivers\etc
+
+# Ambiente de desarrollo local de SISPRO
+127.0.0.1 devweb.sispro.gov.co
+127.0.0.1 devweb.sisprodesa.local
+127.0.0.1 devsismed.sisprodesa.local
+127.0.0.1 devrethus.sisprodesa.local
+127.0.0.1 devrethusapi.sisprodesa.local
+
+# Ambiente de desarrollo de SISPRO
+192.168.39.91 sqlpisis1.sisprodesa.local
+192.168.37.91 web.sisprodesa.local
+
+# Ambiente de preproduccion de SISPRO desde VPN
+# 10.20.5.90 web.sispropreprod.gov.co
+
+# Ambiente de preproduccion de SISPRO desde Ministerio (cuando sea tramitada conexion)
+# 192.168.47.91 web.sispropreprod.gov.co 
+
+

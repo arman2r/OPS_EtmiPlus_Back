@@ -4,7 +4,7 @@
     {
         public int IdDiagnosticoNinoExpuesto {  get; set; }
         public int IdGestanteControl {  get; set; }
-        public int FechaNacimiento {  get; set;}
+        public DateTime FechaNacimiento {  get; set; }
 
         //Prueba Diagnostico al momento de nacer
         public int IdExamenParasitologico { get; set; }
